@@ -1,22 +1,52 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 style="color:#000 !important;">KANBAN-APP</h2>
+        <hr>
+        <!-- BACKLOG -->
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="thumbnail" >
+                <h1 style="background-color:#ccdef9 ;">BACKLOG</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TODO -->
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <h1 style="background-color:#ccdef9;">TO-DO</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- DOING -->
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <h1 style="background-color:#ccdef9;">DOING</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- DONE -->
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <h1 style="background-color:#ccdef9;">DONE</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
